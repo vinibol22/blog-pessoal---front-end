@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
   foto:string = environment.foto
   constructor(private router:Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
   }
 sair(){
   this.router.navigate(['/entrar'])
